@@ -14,7 +14,7 @@ from sklearn.decomposition import TruncatedSVD
 ###############################################################################
 
 # Main    
-def tree_electre_tri_b(dataset, target_assignment = [], W = [], Q = [], P = [], V = [], B = [], cut_level = [0.5, 1.0], rule = 'pc', number_of_classes = 2, elite = 1, eta = 1, mu = 2, population_size = 25, mutation_rate = 0.01, generations = 150, samples = 0.70, number_of_models = 100):
+def tree_electre_tri_b(dataset, target_assignment = [], W = [], Q = [], P = [], V = [], B = [], cut_level = [0.5, 1.0], rule = 'pc', number_of_classes = 2, elite = 1, eta = 1, mu = 2, population_size = 25, mutation_rate = 0.01, generations = 150, samples = 0.10, number_of_models = 100):
     count           = 0
     ensemble_model  = []
     if (len(target_assignment) == 0):
