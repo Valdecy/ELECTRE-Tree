@@ -19,7 +19,7 @@ ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The functio
 
 * V = Optional argument. The veto threshold list indicated by the decision maker. The default value is [], meaning that the algorithm will try to optimize this parameter.
 
-* cut_level = Optional argument. The list of possibles cut level values indicated by the decision maker. The default value is [0.5, 1.0], meaning that the algorithm will try to optimize this parameter from 0.5 to 1.
+* cut_level = Optional argument. The list of possibles cut level values indicated by the decision maker. The default value is [0.5, 1.0], meaning that the algorithm will try to optimize this parameter with a value from 0.5 to 1.
 
 * rule = Decides if the allocation rule is pessimist 'pc' or optimist 'oc'. The default values is 'pc'.
 
