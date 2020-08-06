@@ -11,15 +11,15 @@ ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The functio
 
 * target_assignment = Optional argument. A list of previous allocation (labels) of alternatives that the algorithm will try to follow (classification problem). The default value is [].
 
-* W = Optional argument. A list of weights for each criterion indicated by the decision maker. The default value is [], meaning that the algorithm will can try to optimize this parameter.
+* W = Optional argument. A list of weights for each criterion indicated by the decision maker. The default value is [], meaning that the algorithm will try to optimize this parameter.
 
-* Q = Optional argument. The indifference threshold list indicated by the decision maker. The default value is [], meaning that the algorithm will can try to optimize this parameter.
+* Q = Optional argument. The indifference threshold list indicated by the decision maker. The default value is [], meaning that the algorithm will try to optimize this parameter.
 
-* P = Optional argument. The preference threshold list indicated by the decision maker. The default value is [], meaning that the algorithm will can try to optimize this parameter.
+* P = Optional argument. The preference threshold list indicated by the decision maker. The default value is [], meaning that the algorithm will try to optimize this parameter.
 
-* V = Optional argument. The veto threshold list indicated by the decision maker. The default value is [], meaning that the algorithm will can try to optimize this parameter.
+* V = Optional argument. The veto threshold list indicated by the decision maker. The default value is [], meaning that the algorithm will try to optimize this parameter.
 
-* cut_level = Optional argument. The list of possibles cut level values indicated by the decision maker. The default value is [0.5, 1.0], meaning that the algorithm will can try to optimize this parameter from 0.5 to 1.
+* cut_level = Optional argument. The list of possibles cut level values indicated by the decision maker. The default value is [0.5, 1.0], meaning that the algorithm will try to optimize this parameter from 0.5 to 1.
 
 * rule = Decides if the allocation rule is pessimist 'pc' or optimist 'oc'. The default values is 'pc'.
 
@@ -27,7 +27,7 @@ ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The functio
 
 * elite = The quantity of best indivduals to be preserved in the genetic algorithm. The quantity should be low to avoid being traped in local otima. The default value is 1.
 
-* mutation_rate = Chance to occur a mutation operation in the genetic algorithm.. The default value is 0.01
+* mutation_rate = Chance to occur a mutation operation in the genetic algorithm. The default value is 0.01
 
 * eta = Value of the mutation operator used in the genetic algorithm. The default value is 1.
 
