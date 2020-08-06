@@ -2,10 +2,10 @@
 
 Article: https://arxiv.org/abs/2007.10047
 
-ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The function returns: 1) A list of optimized sub-models that can be used to vote the allocation of alternatives (assign to a class) or can infer the ELECTRE Tri-B parameters using the average.<br/>
+ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The function returns: 1) A list of optimized sub-models that can be used to vote the allocation of alternatives (assign to a class) or can infer the ELECTRE Tri-B parameters using the average.
 
 
- *"tree_electre_tri_b" arguments*
+ *"tree_electre_tri_b" arguments*\
  
 * dataset = A numpy array where the rows are the alternatives and columns are the criteria. 
 
@@ -39,7 +39,7 @@ ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The functio
 
 * samples = The percentage of the number of alternatives (randomly selected) used in each submodel. The default value is 0.10.
 
-* number_of_models = The total number of generated sub-models. The defaul value is 100.<br/>
+* number_of_models = The total number of generated sub-models. The defaul value is 100.
 
 
 *"predict" arguments*
