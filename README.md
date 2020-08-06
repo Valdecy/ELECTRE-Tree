@@ -39,7 +39,7 @@ ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The functio
 
 * samples = The percentage of the number of alternatives (randomly selected) used in each submodel. The default value is 0.10.
 
-* number_of_models = The total number of generated sub-models. The defaul value is 100.
+* number_of_models = The total number of generated sub-models. The defaul value is 100.<br/>
 
 
 *"predict" arguments*
