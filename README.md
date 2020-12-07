@@ -1,6 +1,6 @@
 # ELECTRE-Tree
 
-Article: https://arxiv.org/abs/2007.10047
+Draft: https://arxiv.org/abs/2007.10047
 
 ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The function returns: 1) A list of optimized sub-models that can be used to vote the allocation of alternatives (assign to a class) or can infer the ELECTRE Tri-B parameters using the average.
 
