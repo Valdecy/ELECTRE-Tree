@@ -317,7 +317,7 @@ def plot_points(data, classification):
     plt.style.use('ggplot')
     #'D':'#c85a53'
     #'B':'#ff9408'
-    colors = {'A':'#bf77f6', 'B':'#fed8b1', 'C':'#d1ffbd', 'D':'#f08080', 'E':'#3a18b1', 'F':'#ff796c', 'G':'#04d8b2', 'H':'#ffb07c', 'I':'#aaa662', 'J':'#0485d1', 'K':'#fffe7a', 'L':'#b0dd16', 'M':'#85679', 'N':'#12e193', 'O':'#82cafc', 'P':'#ac9362', 'Q':'#f8481c', 'R':'#c292a1', 'S':'#c0fa8b', 'T':'#ca7b80', 'U':'#f4d054', 'V':'#fbdd7e', 'W':'#ffff7e', 'X':'#cd7584', 'Y':'#f9bc08', 'Z':'#c7c10c'}
+    colors = {'A':'#bf77f6', 'B':'#fed8b1', 'C':'#d1ffbd', 'D':'#f08080', 'E':'#3a18b1', 'F':'#ff796c', 'G':'#04d8b2', 'H':'#ffb07c', 'I':'#aaa662', 'J':'#0485d1', 'K':'#fffe7a', 'L':'#b0dd16', 'M':'#d85679', 'N':'#12e193', 'O':'#82cafc', 'P':'#ac9362', 'Q':'#f8481c', 'R':'#c292a1', 'S':'#c0fa8b', 'T':'#ca7b80', 'U':'#f4d054', 'V':'#fbdd7e', 'W':'#ffff7e', 'X':'#cd7584', 'Y':'#f9bc08', 'Z':'#c7c10c'}
     classification_ = copy.deepcopy(classification)
     color_leg = {}
     #variance  = 0
