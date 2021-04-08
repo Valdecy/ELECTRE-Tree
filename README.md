@@ -2,7 +2,7 @@
 
 Draft: https://arxiv.org/abs/2007.10047             Article: https://www.emerald.com/insight/content/doi/10.1108/DTA-10-2020-0256/full/html
 
-**Try it online**: ([ Colab Demo ](https://colab.research.google.com/drive/1eAJ89u2gqMxp4pIfUeBHQlJqrb64V7_D?usp=sharing))
+Try it in **Colab**: ([ Colab Demo ](https://colab.research.google.com/drive/1eAJ89u2gqMxp4pIfUeBHQlJqrb64V7_D?usp=sharing))
 
 ELECTRE-Tree Algorithm to infer the ELECTRE Tri-B method parameters. The function returns: 1) A list of optimized sub-models that can be used to vote the allocation of alternatives (assign to a class) or can infer the ELECTRE Tri-B parameters using the average.
 
