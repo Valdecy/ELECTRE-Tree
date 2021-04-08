@@ -1,8 +1,6 @@
 # ELECTRE-Tree
 
-Draft: https://arxiv.org/abs/2007.10047
-
-Article: https://www.emerald.com/insight/content/doi/10.1108/DTA-10-2020-0256/full/html
+Draft: https://arxiv.org/abs/2007.10047             Article: https://www.emerald.com/insight/content/doi/10.1108/DTA-10-2020-0256/full/html
 
 Try it online: ([ Colab Demo ](https://colab.research.google.com/drive/1eAJ89u2gqMxp4pIfUeBHQlJqrb64V7_D?usp=sharing))
 
